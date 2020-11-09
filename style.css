@@ -28,6 +28,7 @@
   height: 50%;
   margin: auto;
   pointer-events: none;
+  transform: rotate(-90deg);
 }
 
 .time-display{
