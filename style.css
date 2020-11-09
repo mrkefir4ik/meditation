@@ -44,3 +44,39 @@ left: 0%;
 width: 100%;
 z-index: -1;
 }
+
+.time-select button,
+.sound-picker button{
+  color: white;
+  width: 30%;
+  min-height: 10%;
+  background: none;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.time-select button:hover{
+  color: black;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.play:hover{
+cursor: pointer;
+}
+
+.sound-picker button{
+  border: none;
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+}
+
+.sound-picker button:nth-child(1){
+  background-color: lightblue;
+}
+.sound-picker button:nth-child(2){
+  background-color: lightcoral;
+}
